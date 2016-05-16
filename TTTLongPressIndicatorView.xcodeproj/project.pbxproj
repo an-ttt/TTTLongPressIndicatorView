@@ -15,6 +15,9 @@
 		43E8E2341CEA1E1D00F0CEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E8E2321CEA1E1D00F0CEAB /* LaunchScreen.storyboard */; };
 		43E8E23F1CEA1E1D00F0CEAB /* TTTLongPressIndicatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E23E1CEA1E1D00F0CEAB /* TTTLongPressIndicatorViewTests.m */; };
 		43E8E24A1CEA1E1D00F0CEAB /* TTTLongPressIndicatorViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E2491CEA1E1D00F0CEAB /* TTTLongPressIndicatorViewUITests.m */; };
+		43E8E25C1CEA1E4900F0CEAB /* TTTLongPressIndicatorMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E2591CEA1E4900F0CEAB /* TTTLongPressIndicatorMaskView.m */; };
+		43E8E25D1CEA1E4900F0CEAB /* TTTLongPressIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E25B1CEA1E4900F0CEAB /* TTTLongPressIndicatorView.m */; };
+		43E8E25F1CEA208600F0CEAB /* Close_Indicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43E8E25E1CEA208600F0CEAB /* Close_Indicator@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		43E8E2451CEA1E1D00F0CEAB /* TTTLongPressIndicatorViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTLongPressIndicatorViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E8E2491CEA1E1D00F0CEAB /* TTTLongPressIndicatorViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTLongPressIndicatorViewUITests.m; sourceTree = "<group>"; };
 		43E8E24B1CEA1E1D00F0CEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E8E2581CEA1E4900F0CEAB /* TTTLongPressIndicatorMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTLongPressIndicatorMaskView.h; sourceTree = "<group>"; };
+		43E8E2591CEA1E4900F0CEAB /* TTTLongPressIndicatorMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTLongPressIndicatorMaskView.m; sourceTree = "<group>"; };
+		43E8E25A1CEA1E4900F0CEAB /* TTTLongPressIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTLongPressIndicatorView.h; sourceTree = "<group>"; };
+		43E8E25B1CEA1E4900F0CEAB /* TTTLongPressIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTLongPressIndicatorView.m; sourceTree = "<group>"; };
+		43E8E25E1CEA208600F0CEAB /* Close_Indicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close_Indicator@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		43E8E2231CEA1E1D00F0CEAB /* TTTLongPressIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
+				43E8E2571CEA1E2400F0CEAB /* TTTLongPressIndicatorView */,
 				43E8E2271CEA1E1D00F0CEAB /* AppDelegate.h */,
 				43E8E2281CEA1E1D00F0CEAB /* AppDelegate.m */,
 				43E8E22A1CEA1E1D00F0CEAB /* ViewController.h */,
@@ -109,6 +118,7 @@
 				43E8E2301CEA1E1D00F0CEAB /* Assets.xcassets */,
 				43E8E2321CEA1E1D00F0CEAB /* LaunchScreen.storyboard */,
 				43E8E2351CEA1E1D00F0CEAB /* Info.plist */,
+				43E8E25E1CEA208600F0CEAB /* Close_Indicator@2x.png */,
 				43E8E2241CEA1E1D00F0CEAB /* Supporting Files */,
 			);
 			path = TTTLongPressIndicatorView;
@@ -138,6 +148,17 @@
 				43E8E24B1CEA1E1D00F0CEAB /* Info.plist */,
 			);
 			path = TTTLongPressIndicatorViewUITests;
+			sourceTree = "<group>";
+		};
+		43E8E2571CEA1E2400F0CEAB /* TTTLongPressIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				43E8E2581CEA1E4900F0CEAB /* TTTLongPressIndicatorMaskView.h */,
+				43E8E2591CEA1E4900F0CEAB /* TTTLongPressIndicatorMaskView.m */,
+				43E8E25A1CEA1E4900F0CEAB /* TTTLongPressIndicatorView.h */,
+				43E8E25B1CEA1E4900F0CEAB /* TTTLongPressIndicatorView.m */,
+			);
+			name = TTTLongPressIndicatorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E8E2341CEA1E1D00F0CEAB /* LaunchScreen.storyboard in Resources */,
+				43E8E25F1CEA208600F0CEAB /* Close_Indicator@2x.png in Resources */,
 				43E8E2311CEA1E1D00F0CEAB /* Assets.xcassets in Resources */,
 				43E8E22F1CEA1E1D00F0CEAB /* Main.storyboard in Resources */,
 			);
@@ -270,7 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E8E25C1CEA1E4900F0CEAB /* TTTLongPressIndicatorMaskView.m in Sources */,
 				43E8E22C1CEA1E1D00F0CEAB /* ViewController.m in Sources */,
+				43E8E25D1CEA1E4900F0CEAB /* TTTLongPressIndicatorView.m in Sources */,
 				43E8E2291CEA1E1D00F0CEAB /* AppDelegate.m in Sources */,
 				43E8E2261CEA1E1D00F0CEAB /* main.m in Sources */,
 			);
